@@ -1,0 +1,27 @@
+@import url("https://fonts.googleapis.com/css?family=Orbitron");
+
+@font-face {
+  font-family: 'arcaderound';
+  src: url('/assets/fonts/04B_30__.TTF');
+}
+@font-face {
+  font-family: 'arcaderoundr';
+  src: url('/assets/fonts/ARCADE_R.TTF');
+}
+
+* {
+  box-sizing: border-box;
+  font-family: Arial;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  overflow-x: hidden;
+  height: 100vh;
+  background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAkAAAAKCAYAAABmBXS+AAAAPklEQVQoU2P8f/z2fwYCgHEoKPoY1s/Av6oQxSsoDocpQFcIV4QugcwHK8JmBcg+mDjjB9ms/+huQHYQSCEA4QE7IW3G5NsAAAAASUVORK5CYII=");
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  min-width: 780px;
+}
